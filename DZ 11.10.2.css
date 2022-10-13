@@ -1,0 +1,60 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+.h6 {
+    width: 700px;
+}
+body > div {
+    place-items: center;
+    margin: 0;
+}
+div {
+    display: grid;
+}
+.h1 {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+.h2 {
+    position: absolute;
+    top: 170px;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+.h3 {
+    position: absolute;
+    top: 245px;
+    left: 0;
+    width: 100%;
+    color: white;
+}
+.n4 {
+    position: absolute;
+    top: 550px;
+    left: 0;
+    width: 100%;
+}
+.h7 {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 120px 150px;
+    grid-gap: 50px;
+    position: absolute;
+    top: 610px;
+    left: 0;
+    width: 100%;
+    justify-self: center;
+
+
+
+}
+body {
+    margin: 0;
+}
+img {
+    width: 220px;
+}
+
+
