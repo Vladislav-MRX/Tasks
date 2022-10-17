@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 .h6 {
     width: 700px;
 }
@@ -11,21 +10,24 @@ div {
 }
 .h1 {
     position: absolute;
-    top: 150px;
+    top: 185px;
     left: 0;
     width: 100%;
     color: white;
+    font-size: 12px;
 }
 .h2 {
     position: absolute;
-    top: 170px;
+    top: 209px;
     left: 0;
     width: 100%;
     color: white;
+    font-size: 62px;
 }
 .h3 {
+    font-size: 12px;
     position: absolute;
-    top: 245px;
+    top: 297px;
     left: 0;
     width: 100%;
     color: white;
@@ -35,6 +37,7 @@ div {
     top: 550px;
     left: 0;
     width: 100%;
+    color: #4a4a4a;
 }
 .h7 {
     display: grid;
@@ -45,16 +48,77 @@ div {
     top: 610px;
     left: 0;
     width: 100%;
-    justify-self: center;
-
-
-
+    align-content: center;
+    justify-content: center;
 }
 body {
+    display: grid;
     margin: 0;
+    font-family: sans-serif;;
 }
 img {
-    width: 220px;
+    width: 200px;
 }
+.h8 {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 70px;
+    grid-gap: 65px;
+    position: absolute;
+    top: 1000px;
+    left: 0;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    background: #ececec;
+}
+.h9 {
+    width: 20px;
+}
+.h10 {
+    display: grid;
+    grid-template-columns: 190px 145px 215px;
+    grid-template-rows: 70px;
+    grid-gap: 50px;
+    position: absolute;
+    top: 1070px;
+    left: 0;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    background: #2f2f2f;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}
+.h11 {
+    display: grid;
+    grid-template-columns: 550px 30px 30px 30px;
+    grid-template-rows: 10px;
+    grid-gap: 10px;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    justify-content: center;
+    color: #00bf98;
+    font-size: 10px;
+}
+.h15 {
+    display: grid;
+    grid-template-columns:  680px;
+    grid-template-rows: 0;
+    grid-gap: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    color: #00bf98;
+    font-size: 10px;
+}
+.h15:hover { text-decoration: underline; }
+.home:hover { text-decoration: underline; }
+.about:hover { text-decoration: underline; }
+.works:hover { text-decoration: underline; }
+
 
 
