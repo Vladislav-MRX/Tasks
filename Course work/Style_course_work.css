@@ -34,6 +34,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 body {
     font-family: sans-bb, 'Comic Sans MS', cursive;
@@ -49,7 +50,6 @@ div {
 .background {
     width: 100%;
     height: 100%;
-
 }
 .name {
     display: grid;
@@ -66,6 +66,14 @@ div {
     background: black;
     padding: 1vw;
     flex-direction: column;
+}
+.arrow-amg {
+    height: 1.5vw;
+    width: 1.5vw;
+    display: grid;
+    margin: -2.5vw;
+    margin-top: -3.5vw;
+    margin-left: 17vw;
 }
 .net {
     display: grid;
@@ -282,7 +290,7 @@ b {
     width: 2vw;
     height: 5vw;
     cursor: pointer;
-    z-index: 1;
+    z-index: 2;
 }
 .menu_btn > span,
 .menu_btn > span::before,
@@ -314,6 +322,7 @@ b {
     list-style: none;
     text-align: center;
     background-color: #e1e1e1;
+    z-index: 1;
     box-shadow: 1vw 1vw 0.1vw rgba(0, 0, 0);
 }
 .menu_item {
@@ -451,7 +460,7 @@ form {
 .block-2\.2 {
     display: grid;
     grid-template-rows: 3vw 7vw;
-    grid-template-columns: 22vw 22vw 24vw;
+    grid-template-columns: 22vw 22vw 22vw;
     justify-items: center;
     grid-gap: 1vw 5vw;
 }
@@ -464,23 +473,6 @@ form {
     margin: 0 5vw 0 -1vw;
     line-height: 5vw;
     font-family: lobster, 'Comic Sans MS', cursive;
-}
-.arrow-3 .arrow-3-icon {
-    position: relative;
-    top: 0;
-    transition: transform 0.3s ease;
-    vertical-align: middle;
-}
-.arrow-3 .arrow-3-iconcircle {
-    transition: stroke-dashoffset .3s ease;
-    stroke-dasharray: 95;
-    stroke-dashoffset: 95;
-}
-.arrow-3:hover .arrow-3-icon {
-    transform: translate3d(0.5vw, 0, 0);
-}
-.arrow-3:hover .arrow-3-iconcircle {
-    stroke-dashoffset: 0;
 }
 .block-2\.3 {
     font-size: 0.85vw;
@@ -647,8 +639,9 @@ p {
 }
 .block-4\.5 {
     color: #93929b;
-    font-family: sans-r, 'Comic Sans MS', cursive;
+    font-family: sans-bb, 'Comic Sans MS', cursive;
     font-size: 0.8vw;
+    margin: 1.5vw 0 0 0;
 }
 .block-5 {
     color: white;
@@ -662,7 +655,7 @@ p {
     width: 20%;
     height: 20%;
     margin: 0 0 0 65vw;
-    margin-top: -19.2vw;
+    margin-top: -20.2vw;
 }
 .block-5\.1 {
     display: grid;
@@ -688,7 +681,7 @@ p {
     grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
     justify-items: end;
     background: #e1e1e1;
-    padding: 1vw;
+    padding: 1.5vw;
     align-items: center;
 }
 .block-6-img {
@@ -726,6 +719,7 @@ p {
 }
 .block-7\.2 {
     color: grey;
+    font-size: 1vw;
 }
 .block-7\.3 {
     display: grid;
@@ -745,12 +739,70 @@ p {
     font-family: sans-i, "Comic Sans MS", cursive;
     font-size: 0.9vw;
     margin: 0 0 2vw 0;
-    /*border-bottom: 0.15vw solid #e1e1e1;
-    width: 12vw;*/
     text-align: center;
 }
 .line {
     border-bottom: 0.15vw solid #e1e1e1;
     width: 12vw;
     margin: 0 0 2.2vw 0;
+}
+.block-8\.1 {
+    display: grid;
+    grid-template-rows: 5vw 5vw;
+    justify-items: center;
+}
+.block-8\.2 {
+    display: grid;
+    grid-template-columns: 23vw 13vw;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 4vw;
+    margin: 0 0 3vw 0;
+}
+.block-8-img {
+    width: 13vw;
+    height: 14vw;
+}
+.block-9 {
+    display: grid;
+    grid-template-columns: 16.66% 16.66% 16.66% 16.66% 16.66% 16.66%;
+    background: #f4f4f4;
+}
+.block-9-img {
+    border: 0.1vw solid #e1e1e1;
+    height: 8vw;
+    width: 16.57vw;
+}
+.block-10 {
+    display: grid;
+    grid-template-columns: 50% 5% 35%;
+    background: #e1e1e1;
+    justify-items: center;
+    align-items: center;
+}
+.block-10-img {
+    width: 35vw;
+    height: 35vw;
+}
+.block-10\.1 {
+    text-align: right;
+    font-size: 1.3vw;
+    font-family: Lobster, "Comic Sans MS", cursive;
+    margin: 2vw 0 0 0;
+}
+.block-10\.2 {
+    text-align: right;
+    color: grey;
+    font-family: sans-b, "Comic Sans MS", cursive;
+    font-size: 1vw;
+}
+.block-10\.3 {
+    font-size: 6vw;
+    color: #c6c6c6;
+    margin: 0 0 1.8vw 0;
+}
+.block-10\.4 {
+    font-size: 1vw;
+    color: grey;
+    font-family: sans-b, "Comic Sans MS", cursive;
 }
