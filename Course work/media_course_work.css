@@ -1,0 +1,60 @@
+@font-face {
+    font-family: lobster;
+    src: url("Lobster.ttf");
+}
+@font-face {
+    font-family: oswald-b;
+    src: url("Oswald-Bold.ttf");
+}
+@font-face {
+    font-family: oswald-l;
+    src: url("Oswald-Light.ttf");
+}
+@font-face {
+    font-family: oswald-r;
+    src: url("Oswald-Regular.ttf");
+}
+@font-face {
+    font-family: sans-bb;
+    src: url("PT_Sans-Web-Bold.ttf");
+}
+@font-face {
+    font-family: sans-b;
+    src: url("PT_Sans-Web-BoldItalic.ttf");
+}
+@font-face {
+    font-family: sans-i;
+    src: url("PT_Sans-Web-Italic.ttf");
+}
+@font-face {
+    font-family: sans-r;
+    src: url("PT_Sans-Web-Regular.ttf");
+}
+@media (max-width: 500px) {
+    .youtube {
+        height: 200px;
+    }
+}
+@media (max-width: 700px) and (min-width: 501px) {
+    .youtube {
+        height: 300px;
+    }
+}
+@media (max-width: 1200px) and (min-width: 701px) {
+    .youtube {
+        height: 400px;
+    }
+}
+@media (max-width: 1500px) and (min-width: 1201px) {
+    .youtube {
+        height: 500px;
+    }
+}
+@media (max-width: 450px) {
+    .center {
+        grid-template-rows: 25vw 25vw;
+        grid-template-columns: 22vw 22vw;
+        grid-gap: 10vw;
+    }
+
+}
