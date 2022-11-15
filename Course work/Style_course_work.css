@@ -268,7 +268,7 @@ b {
     position: absolute;
     width: 2vw;
     height: 0.3vw;
-    background-color: white;
+    background-color: rgba(194,188,183,0.92);
 }
 .menu_btn > span::before {
     content: '';
